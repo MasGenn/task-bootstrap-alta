@@ -4,8 +4,101 @@
   font-family: "Lato", sans-serif;
 }
 
-body {
+/* navbar */
+.nav-item {
+  margin-right: 2rem;
 }
 
-nav {
+/* feature */
+#feature {
+  margin-top: 5rem;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.feature-img {
+  width: 50px;
+}
+
+.feature-content {
+  margin-top: 2rem;
+}
+
+h5 {
+  margin: 2rem 0;
+  font-weight: bold;
+}
+
+.card-text {
+  margin-bottom: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* product */
+#product {
+  margin-top: 10rem;
+  color: rgb(65, 65, 65);
+}
+
+.product-img {
+  width: 100%;
+}
+
+.explain-product {
+  margin-top: 3rem;
+  margin-left: 2rem;
+}
+
+.text-product,
+.list-product {
+  margin-top: 2rem;
+}
+
+.list-product li {
+  list-style-type: none;
+  margin-left: -2rem;
+}
+
+/* about */
+#about {
+  margin-top: 5rem;
+  background-color: #303030;
+  color: aliceblue;
+  padding-bottom: 2rem;
+}
+
+.title-about {
+  position: absolute;
+  width: 350px;
+  margin-left: 2rem;
+}
+
+.list-about {
+  margin-left: 25rem;
+}
+
+.kolum {
+  margin-right: 0rem;
+}
+
+ul li {
+  list-style-type: none;
+  margin-left: -2rem;
+}
+
+ul li a {
+  color: aliceblue;
+}
+
+/* footer */
+.pfoot {
+  text-align: center;
+  color: rgb(65, 65, 65);
+  font-size: 12px;
+  padding-top: 1rem;
 }
